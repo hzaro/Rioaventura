@@ -1,0 +1,28 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.rioaventuramendoza\.com$
+RewriteRule ^/?$ "https\:\/\/rioaventuramendoza\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^riosandinos\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.riosandinos\.com$
+RewriteRule ^/?$ "https\:\/\/rioaventuramendoza\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^rioscacheuta\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rioscacheuta\.com$
+RewriteRule ^/?$ "https\:\/\/rioaventuramendoza\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^riosturismo\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.riosturismo\.com$
+RewriteRule ^/?$ "https\:\/\/rioaventuramendoza\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^turismoaventuramendoza\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.turismoaventuramendoza\.com$
+RewriteRule ^/?$ "https\:\/\/rioaventuramendoza\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^riosandinos\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.riosandinos\.com\.ar$
+RewriteRule ^/?$ "https\:\/\/rioaventuramendoza\.com" [R=301,L]
+

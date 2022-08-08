@@ -1,0 +1,2204 @@
+/**		24- Media queries		**/
+@media screen and (min-width: 1200px) { /* Large Display 1200px and above */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { /* Default 992px to 1199px */
+
+	/**       2- Folio Zee Curve Shape                                     **/
+	/* Curve starts */
+	.zee_curve_container .zee_curve_left{
+		top: -72px;
+	}
+	.zee_curve_container .zee_curve_right{
+		bottom: -79px;
+	}
+	/* Curve Ends */
+	
+	/**       3- Navigation Primary (Sticky Navigation)                   **/
+	/* menu-bar starts */
+	
+	.sticky-wrapper.is-sticky .menu-bar{
+		height: 57px;
+	}
+	.menu-bar .main-nav ul li a{
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 13px;
+		margin: 22px 12px;
+	}
+	
+	
+		
+		.menu-bar .main-nav  ul > li > ul a,
+		.menu-bar .main-nav  ul > li > ul a:link {
+			font-size: 13px;
+			line-height: 44px;
+			padding: 0 22px;
+	
+		}
+		.menu-bar .main-nav .back_top a{
+			margin: 16px 24px 17px 18px;
+		}
+		
+		/* menu-bar Dropdown Ends */
+		
+	/* menu-bar ends */
+
+	/**       4- Header Navigations							          	  **/
+	/* header_nav_holder starts */
+	.header_nav_holder{
+		float: right;
+	}
+	.header_nav_holder .main-nav{
+		float: left;
+		display: none;
+	}
+		/* header_toggle_menu */
+		.header_toggle_menu{
+			display: inline-block;
+			float: right;
+		}
+			.header_toggle_menu .menu_small_btn{
+				background: none;
+				border: 0;
+				color: #ffffff;
+				float: right;
+				margin: 0 0 0 15px;
+				position: relative;
+				text-align: center;
+				transition: all 0.3s ease 0s;
+					-webkit-transition: all 0.3s ease 0s;
+					-moz-transition: all 0.3s ease 0s;
+					-ms-transition: all 0.3s ease 0s;
+					-o-transition: all 0.3s ease 0s;
+				height: 15px;
+				width: 15px;
+			}
+				.header_toggle_menu .menu_small_btn:hover{
+					background: none;
+				}
+				.header_toggle_menu .menu_small_btn .toggle_menu_btn, .header_toggle_menu .menu_small_btn .toggle_top_menu_btn{
+					position: absolute;
+					top: 0;
+					left: 0;
+					cursor: pointer;
+					transition: all 0.2s ease 0s;
+						-webkit-transition: all 0.2s ease 0s;
+						-moz-transition: all 0.2s ease 0s;
+						-ms-transition: all 0.2s ease 0s;
+						-o-transition: all 0.2s ease 0s;
+				}
+				.header_toggle_menu .menu_small_btn .open_menu{
+					z-index: 10;
+					opacity: 1;
+				}
+				.header_toggle_menu .menu_small_btn .close_menu{
+					opacity: 0;
+					z-index: 9;
+				}
+				.header_toggle_menu i{
+					font-size: 15px;
+					line-height: 15px;
+					vertical-align: top;
+				}
+		.header-menu-2, .header-menu-1{
+			position: absolute;
+			top: 0;
+		}
+			.header-menu-2.menu-bar .logo img, .header-menu-1.menu-bar .logo img{
+				float: left;
+			}
+
+	/**       	4.1- Header Navigation 1							          **/
+	/* .header-menu-2 starts */
+
+		.header-menu-2.menu-bar .logo{
+			margin: 0;
+		}
+
+		.header-menu-2 .main-nav ul li a {
+			margin: 0 12px;
+		}
+	/* .header-menu-2 ends */
+
+	/**       	4.2- Header Navigation 2							          **/	
+	/* .header-menu-1 starts */
+		.header-menu-1.menu-bar .logo{
+			margin: 0;
+		}
+		.header-menu-1 .main-nav ul li a {
+			margin: 0 17px;
+		}
+	/* .header-menu-1 ends */
+	
+	/**       5- Header                                                  **/
+	.static_banner {
+		height: 850px;
+		position: relative;
+		width: 100%;
+	}
+		.text_banner_holder{
+			margin: 217px 0 0 0;
+		}
+		.text_banner_holder .skew_shape{
+			height: 293px;
+		}
+		.text_banner_holder .heading_wrap h2{
+			font-size: 85px;
+			line-height: 88px;
+			margin: 0 0 17px 0;
+		}
+		.text_banner_holder .heading_wrap h3{
+			font-size: 28px;
+			line-height: 40px;
+			margin: 0 0 14px 0;
+		}
+		.text_banner_holder .next_section a{
+			font-size: 70px;
+			line-height: 20px;
+		}
+		/* .next_section a ends*/
+		
+		/**	Header slim_text		**/
+			.text_banner_holder .slim_text.heading_wrap h2{
+				font-size: 70px;
+				line-height: 73px;
+			}
+
+	/**		9- Services Section		**/
+	/* .service_single starts */
+	.service_single{
+		margin-bottom: 94px;
+	}
+			.service_single .icon_holder .icon_shape{
+				
+			}
+				.service_single .icon_holder .icon_shape i{
+					font-size: 36px;
+					line-height: 95px;
+				}
+		.service_single .service_right{
+		}
+	/* .service_single ends */
+	
+	/**		11- Portfolio Section		**/
+	/* work_nav starts */
+		.work_nav ul li{
+			margin: 0 15px;
+		}
+	/* work_nav ends */
+	
+	/* work_listing starts */
+		.work_listing .work_item{
+			/*width: 313px;*/
+			display: block;
+		}
+		.view .links{
+			margin: 0 0 41px 0;
+		}
+	/* work_listing ends */
+	
+	/**		12- Team Slider Section		**/
+	/* .team_carousel starts */
+			.member_basic{
+				padding: 10px;
+			}
+				.member_basic .member_name{
+					font-size: 22px;
+					line-height: 30px;
+				}
+				.member_basic .member_designation{
+					font-size: 15px;
+					line-height: 26px;
+				}
+	/* .team_carousel ends */
+	.team_slider{
+		margin: 0 0 36px 0;
+	}
+
+	/**		20- Sidebar and Widgets		**/
+	/* side_bar Starts*/
+		/* widget_kraft_slider starts */
+			.widget_kraft_slider .bx-wrapper .bx-controls-direction a {
+				top: 119px;
+			}
+
+		/* widget_kraft_slider ends */
+		
+		/* widget_search, widget_kraft_search Starts*/
+		.widget_kraft_search label, .widget_search label{
+			margin: 0;
+		}
+		#s {
+			width: 224px;
+		}
+		/* widget_search, widget_kraft_search Ends*/
+	/* sidebar Ends*/	
+	
+	/**		23- 404 section		**/
+				.section_404 .hgroup .heading_left h1 {
+					font-size: 164px;
+					line-height: 190px;
+				}
+				.section_404 .hgroup .heading_left h1:after{
+					bottom: 15px;
+				}
+				.section_404 .hgroup .skew_shape{
+					height: 234px;
+				}
+			.section_404 .hgroup .heading_right{
+				padding: 31px 0 0 20px;
+			}
+				.section_404 .hgroup h2{
+					font-size: 70px;
+					line-height: 70px;
+					margin: 0 0 7px;
+				}
+				.section_404 .hgroup h3{
+					font-size: 25px;
+					line-height: 36px;
+				}
+				.section_404 .hgroup p{
+					font-size: 17px;
+					line-height: 24px;
+					margin: 0 0 7px;
+				}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { /* Portrait Tablets 768 to 979 */
+	/**       2- Folio Zee Curve Shape                                     **/
+	/* .zee_d_curve_container double curves top and bottom starts */
+	.zee_curve_container{
+	}
+	.zee_d_curve_container{
+		min-height: 504px;
+	}
+		.zee_d_curve_container .container{
+			min-height: 504px;
+		}
+	.zee_d_curve{
+		min-height: 504px;
+	}
+	/* .zee_d_curve_container double curves top and bottom ends */
+	
+	.zee_curve{
+		height: 504px;
+	}
+	
+	/* Curve starts */
+	.zee_curve_container .zee_curve_left{
+		top: -83px;
+	}
+	.zee_curve_container .zee_curve_right{
+		bottom: -90px;
+	}
+	
+		/* .zee_t_curve_container double curves top and bottom starts */	
+		.zee_b_curve_container .section_curve_container{
+			padding-bottom: 180px;
+		}
+	/* Curve Ends */
+	
+		/* .zee_curve_container .curve_heading starts */
+		.curve_heading h4{
+			margin-bottom: 47px;
+		}
+		/* .zee_curve_container .curve_heading ends */
+	
+	/**		2.1- Curve Video		**/
+	/* .video_holder starts */
+	.zee_curve_container .video_holder{
+		margin: 164px 0 150px;
+	}
+		/* .video_holder .play-button starts */
+		.video_holder .play-button{
+			height: 70px;
+			margin: 0 0 26px;
+			width: 70px;
+		}
+			.video_holder .play-button:before{
+				line-height: 70px;
+			}
+		/* .video_holder .play-button ends */
+		
+	/* .video_holder ends */
+	
+	/**		2.2- Curve Testimonial slider		**/
+	/* .testi_holder starts */
+	.zee_curve_container .testi_holder{
+		margin: 190px 0 170px;
+	}
+		/* .testi_holder .testi_single starts */
+		.testi_holder .testi_single .avatar{
+			width: 136px;
+		}
+		.testi_holder .testi_single .testi_text{
+			text-align: left;
+			float: left;
+			width: 441px;
+			margin-left: 18px;
+		}
+			.testi_holder .testi_single .testi_text h3{
+				font-size: 16px;
+				line-height: 22px;
+				margin: 15px 0 20px;
+			}
+			.testi_holder .testi_single .testi_text h5{
+				font-size: 15px;
+				line-height: 24px;
+			}
+		.testi_holder .owl-controls .owl-pagination{
+			margin-top: 24px;
+			width: 136px;
+		}
+		/* .testi_holder .testi_single ends */
+	
+	/**		2.3- Statistics		**/
+	/* .stats_single starts */
+	.zee_curve_container .folio_stats{
+		margin: 165px 0 185px;
+	}
+	/* .stats_single ends */
+	
+	/**       3- Navigation Primary (Sticky Navigation)                   **/
+	/* menu-bar starts */
+	
+	.sticky-wrapper.is-sticky .menu-bar{
+		height: 57px;
+	}
+	.menu-bar .main-nav ul li a{
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 12px;
+		margin: 22px 6px;
+	}
+		.menu-bar .main-nav  ul > li > ul a,
+		.menu-bar .main-nav  ul > li > ul a:link {
+			font-size: 12px;
+			line-height: 44px;
+			padding: 0 22px;
+	
+		}
+		.menu-bar .main-nav .back_top a{
+			margin: 16px 18px 17px 14px;
+		}
+		
+		/* menu-bar Dropdown Ends */
+	
+	/* menu-bar ends */
+	/**       	4.1- Header Navigation 1							          **/
+	/* .header-menu-2 starts */
+	.header-menu-2 {
+		background-color: rgba(0, 0, 0, 0);
+		border: none;
+		padding: 44px 0 0 0;
+	}	
+		.header-menu-2.menu-bar .logo{
+			margin: 0;
+		}
+
+		.header-menu-2 .main-nav ul li a {
+			border-bottom: 2px solid transparent;
+			color: #ffffff;
+			margin: 0 20px;
+			padding: 0 4px 6px;
+		}
+		.header-menu-2 .main-nav ul li a:hover, .header-menu-2 .main-nav ul li.current a{
+			border-bottom: 2px solid #ffffff;
+		}
+	/* .header-menu-2 ends */
+
+	/**       	4.2- Header Navigation 2							          **/	
+	/* .header-menu-1 starts */
+		.header-menu-1.menu-bar .logo{
+			margin: 0;
+		}
+		.header-menu-1 .main-nav ul li a {
+			margin: 0 8px;
+		}
+	/* .header-menu-1 ends */
+	
+	/**       5- Header                                                  **/
+	.static_banner {
+		height: 700px;
+	}
+		.text_banner_holder{
+			margin: 170px 0 0 0;
+		}
+		.text_banner_holder .skew_shape{
+			height: 210px;
+		}
+		.text_banner_holder .heading_wrap h2{
+			font-size: 70px;
+			line-height: 73px;
+			margin: 0 0 12px 0;
+		}
+		.text_banner_holder .heading_wrap h3{
+			font-size: 22px;
+			line-height: 34px;
+			margin: 0 0 12px 0;
+		}
+		.text_banner_holder .next_section a{
+			font-size: 50px;
+		}
+		/* .next_section a ends*/
+		
+		/**	Header slim_text		**/
+		.text_banner_holder .slim_text.heading_wrap h2{
+			font-size: 52px;
+			line-height: 55px;
+		}
+		
+	/**       6- Homepage Sections							          	  **/
+	/* Section Homepage General CSS starts */
+	.section_container{
+		padding-top: 64px;
+		/*padding-top: 30px;*/
+		/*padding-bottom: 40px;*/
+	}
+		.section_container .hgroup{
+			margin-bottom: 32px;
+		}
+		.section_container .hgroup h2{
+			font-size: 30px;
+			line-height: 30px;
+			margin: 30px 0;
+		}
+		.section_container .hgroup h3{
+			font-size: 15px;
+			line-height: 22px;
+			margin: 27px 0;
+		}
+	/* Section Homepage General CSS ends */
+	
+	/**		7- About Section		**/
+	.about_image img{
+		max-width: 100%;
+	}
+	.about_content_holder h3{
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.about_single{
+		margin-bottom: 22px;
+	}
+	.about_single i{
+		font-size: 34px;
+		line-height: 34px;
+	}
+	
+	/**		8- Feature Portfolio Section		**/
+	/* Project Starts */
+		.project .project_detail {
+			margin: 15px 0 0 0;
+		}
+			.project .featured_image img{
+				width: 100%;
+			}
+				.project .project_detail .project_text .hgroup h2{
+					font-size: 23px;
+					line-height: 33px;
+					padding-right: 82px;
+				}
+				.project .project_detail .project_text .hgroup h3{
+					font-size: 16px;
+					line-height: 24px;
+					padding-right: 82px;
+				}
+	/* Project Ends */
+	
+	/**		9- Services Section		**/
+	/* .service_single starts */
+	.service_single{
+		margin-bottom: 64px;
+	}
+			.service_single .icon_holder .icon_shape{
+				
+			}
+				.service_single .icon_holder .icon_shape i{
+					font-size: 30px;
+					line-height: 72px;
+				}
+		.service_single .service_right{
+		}
+	/* .service_single ends */
+	
+	/**		10- Simple text Section		**/
+	/* .simple_text starts */
+		.simple_text .text_holder{
+			margin-bottom: 18px;
+		}
+			.simple_text .text_holder h4{
+				font-size: 24px;
+				line-height: 32px;
+				padding: 0 1.5%;
+			}
+			.simple_text .text_holder p{
+				padding: 0 1.5%;
+			}
+	/* .simple_text ends */
+	
+	/**		11- Portfolio Section		**/
+	/* work_nav starts */
+		.work_nav ul{
+			margin: 50px 0 30px;
+		}
+		.work_nav ul li{
+			margin: 0 15px;
+		}
+		.work_nav ul li a{
+			font-size: 13px;
+			line-height: 22px;
+		}
+	/* work_nav ends */
+	
+	/* work_listing starts */
+		.work_listing {
+			margin: 0 0 20px 0;
+		}	
+		.work_listing .work_item{
+			/*width: 240px;*/
+		}
+		.view .links{
+			margin: 0 0 21px 0;
+		}
+		.view .work_detail{
+			padding: 0 12.82%;
+		}
+		.view .work_detail h3{
+			font-size: 22px;
+			line-height: 28px;
+			margin-bottom: 10px;
+		}
+		.view .work_detail p{
+			font-size: 13px;
+			line-height: 18px;
+		}
+	/* work_listing ends */
+
+	/**		12- Team Slider Section		**/
+	/* .team_carousel starts */
+		.member_basic{
+			padding: 10px;
+		}
+			.member_basic .member_name{
+				font-size: 20px;
+				line-height: 26px;
+			}
+			.member_basic .member_designation{
+				font-size: 13px;
+				line-height: 18px;
+			}
+	/* .team_carousel ends */
+
+	/* team_slider starts */
+	.team_slider{
+		margin: 0 0 26px 0;
+	}
+		/* team_social starts */
+			.team_social > li{
+				font-size: 18px;
+				line-height: 33px;
+				margin: 0 33px 0 0;
+			}
+			.team_social > li:after{
+				right: -18px;
+			}
+		/* team_social ends */
+		
+		/* team_description starts */
+		.team_description h3{
+			font-size: 18px;
+			line-height: 26px;
+		}
+		/* team_description ends */
+	/* team_slider ends */
+	
+	/**		13- Client Section			**/
+	/* .clients_holder starts */
+	.clients_holder{
+		margin-bottom: 30px;
+	}
+	/* .clients_holder ends */
+	
+	/**		14- Home Blog Section		**/
+	/* .hm_blog_post starts */
+	.hm_blog_post .post{
+		margin-bottom: 20px;
+	}
+				.post .post_content{
+					padding-left: 70px;
+					padding-top: 20px;
+				}
+				.post .post_content .date_holder .date{
+					height: 67px;
+					padding-top: 12px;
+					width: 50px;
+				}
+					.post .post_content .date_holder .date .date_day{
+						font-size: 24px;
+						line-height: 20px;
+					}
+					.post .post_content .date_holder .date .date_month{
+						font-size: 14px;
+						line-height: 18px;
+					}
+					.post .post_content .meta_holder .title_holder .post_title{
+						font-size: 20px;
+						line-height: 26px;
+						margin: 0 0 22px;
+					}
+
+				.post .post_content .meta_holder .post_meta{
+					font-size: 14px;
+				}
+	/* .hm_blog_post ends */
+	
+	/**		16- Footer Section (map included)		**/
+	/* Footer Starts*/
+	/* .google_map starts */
+	.google_map{
+		height: 454px;
+	}
+	.map_mask{
+		height: 220px;
+	}
+	/* .google_map ends */
+
+	/* Footer Ends*/
+
+	/**      17- Content area inner Pages    							  **/
+	/* content_bar Styling Starts*/ /* Content_bar styling includes for both blog and inner pages */
+	/* folio_headings starts */
+	.content_bar h2.folio_h2{
+		font-size: 34px;
+		line-height: 44px;
+		padding: 0 0 0 28px;
+		clear: both;
+	}
+		.content_bar h2.folio_h2:before{
+			height: 44px;
+			left: 14px;
+			width: 1px;
+		}
+	/* folio_headings ends */
+	
+	
+	.content_bar h1, .content_bar .h1, .content_bar h1 a, .content_bar .h1 a,  
+	.content_bar h2, .content_bar .h2, .content_bar h2 a, .content_bar .h2 a,
+	.content_bar h3, .content_bar .h3, .content_bar h3 a, .content_bar .h3 a,
+	.content_bar h4, .content_bar .h4, .content_bar h4 a, .content_bar .h4 a, 
+	.content_bar h5, .content_bar .h5, .content_bar h5 a, .content_bar .h5 a,
+	.content_bar h6, .content_bar .h6, .content_bar h6 a, .content_bar .h6 a{
+		margin: 0 0 20px 0;
+	}
+	.content_bar h1{
+		font-size: 34px;
+		line-height: 40px;
+	}
+	.content_bar h2{
+		clear: both;
+		font-size: 28px;
+		line-height: 34px;
+	}
+	.content_bar h3{
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.content_bar h4{
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.content_bar h5{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.content_bar h6{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	/* content_bar Styling Ends*/	
+
+	/**		18- Internal Section (includes headings group on top)		**/
+	/* .internal_header Starts */
+		.internal_header{
+			/*margin: 50px 0;*/
+			padding: 60px 0 18px 0;
+		}
+		.internal_header .hgroup h2{
+			font-size: 60px;
+			line-height: 76px;
+		}
+		.internal_header .hgroup h3{
+			font-size: 24px;
+			line-height: 34px;
+		}
+		.internal_header .hgroup h4{
+			font-size: 16px;
+			line-height: 22px;
+		}
+	/* .internal_header Ends */
+
+	/**		19- Inner Blog		**/
+	/* .blog_post Starts */
+		.blog_listing .post{
+			margin: 0 0 56px 0;
+		}
+		.blog_listing.blog_single .post{
+			margin: 0;
+		}
+		.blog_listing .post .post_content .meta_holder{
+			display: block;
+			margin: 0 0 16px;
+			overflow: hidden;
+		}
+			.blog_listing .post .post_content .meta_holder .title_holder{
+				float: left;
+				width: 100%;
+				padding-right: 110px;
+			}
+			.blog_listing .post .post_content .meta_holder  .meta_list{
+				float: left;
+				width: 100%;
+				margin: 0;
+			}
+				.blog_listing .meta_holder .comments{
+					position: absolute;
+					right: 0;
+					top: 12px;
+				}
+				.blog_listing .meta_holder .comments a{
+					font-size: 12px;
+					line-height: 24px;
+				}
+				.blog_listing .meta_holder .comments i{
+					font-size: 16px;
+				}
+				.blog_listing .meta_holder .comments span{
+					font-size: 14px;
+					margin: 0 4px 0 6px;
+				}
+	/* .blog_post Ends */
+	
+	/* pagination start */ 
+		 /*.wp-pagenavi & wp_corenavi starts*/
+		  .folio_navigation{
+			  margin: 0 0 20px 70px;
+		  }
+		/*.wp-pagenavi  & wp_corenavi starts*/
+		
+	/* pagination end */
+	/* .navigation Starts (Single post) */
+		.page_nav {
+			margin: 0 0 20px 70px;
+		}
+	/* .navigation Ends (Single post) */
+	
+	/**		20- Sidebar and Widgets		**/
+	/* side_bar Starts*/
+		/* widget_kraft_slider starts */
+			.widget_kraft_slider .bx-wrapper .bx-controls-direction a {
+				bottom: 68px;
+			}
+
+		/* widget_kraft_slider ends */
+		
+		/* widget_search, widget_kraft_search Starts*/
+		.widget_kraft_search label, .widget_search label{
+			margin: 0;
+		}
+		#s {
+			width: 151px;
+		}
+		/* widget_search, widget_kraft_search Ends*/
+	/* sidebar Ends*/
+	
+	/**      21- Blog Comments Section                  					  **/
+	/* comments_section Starts */
+	#comments_section {
+		margin: 0 0 0 70px;
+		padding: 13px 0 20px 0;
+	}
+	#comments .commentlist .comment .clearing-container img {
+		width: 80px;
+		height: 80px;
+	}
+		#comments .commentlist .children {
+			margin: 0 0 0 50px;
+		}
+		#comments .clearing-container .comment_block{
+			margin: -14px 0 0 100px;
+		}
+	/* comments_section Ends */
+
+	/**		22- Shortcodes and Styling		**/
+	/**      22.3- Tabs Styles			                 				  **/	
+	/*-----------------------------------------------------------------------------------*/
+	/* Tab Styles
+	/*-----------------------------------------------------------------------------------*/
+	.folio-tabs .folio-nav li a {
+		padding: 0 30px;
+	}
+	.folio-tabs .folio-tab {
+		padding: 22px 28px;
+	}
+	
+	/**      22.5- Pricing Tables Styles			                 				  **/
+	/*-----------------------------------------------------------------------------------*/
+	/* Folio Pricing Table Styles		
+	/*-----------------------------------------------------------------------------------*/
+	.folio_pricing_single .price_title{
+		padding: 10px 15px;
+	}
+		.folio_pricing_single .price_title h2{
+			font-size: 20px;
+			line-height: 25px;	
+		}
+	.folio_pricing_single .price_cost{
+		padding: 32px 15px;
+	}
+		.folio_pricing_single .price_cost .price{
+			font-size: 46px;
+			line-height: 46px;
+		}
+	.folio_pricing_single .pricing_details{
+		padding: 22px 0 35px;
+	}
+	.folio_pricing_single .pricing_details ul{
+		margin: 0 0 15px 0;
+	}
+		.folio_pricing_single .pricing_details ul li{
+			font-size: 13px;
+			line-height: 22px;
+			padding: 0 0 20px 0;
+		}
+
+	/**      22.6- Quotes Styles			                 				  **/
+	/*-----------------------------------------------------------------------------------*/
+	/*	Quotes Styles
+	/*-----------------------------------------------------------------------------------*/
+		/* quote_styling Starts */
+		
+		/* blockqoute */ 
+		.content_bar .quote_1, .content_bar .quote_2, .content_bar .quote_3, .content_bar .quote_4, .content_bar .quote_5{
+			margin: 30px 0 10px 0;
+			padding: 0 10px 0 45px;
+		}
+		.content_bar .quote_4, .content_bar .quote_5{
+			padding: 23px 36px 23px 36px;
+		}
+		/* blockqoute p */
+		.content_bar .quote_1 p, .content_bar .quote_4 p , .content_bar .quote_5 p{
+			font-size: 15px;
+			line-height: 26px;
+		}
+		.content_bar .quote_2 p, .content_bar .quote_3 p {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.content_bar .quote_4 p , .content_bar .quote_5 p{
+			font-size: 20px;
+			line-height: 26px;
+		}
+		/* quote_styling Ends */
+		
+	/**		23- 404 section		**/
+	.section_404{
+		padding-top: 142px;
+	}
+				.section_404 .hgroup .heading_left h1 {
+					font-size: 124px;
+					line-height: 148px;
+				}
+				.section_404 .hgroup .heading_left h1:after{
+					bottom: 5px;
+					width: 44px;
+					height: 8px;
+					margin-left: -22px;
+				}
+				.section_404 .hgroup .skew_shape{
+					height: 175px;
+				}
+			.section_404 .hgroup .heading_right{
+				padding: 15px 0 0 20px;
+			}
+				.section_404 .hgroup h2{
+					font-size: 45px;
+					line-height: 45px;
+					margin: 0 0 7px;
+				}
+				.section_404 .hgroup h3{
+					font-size: 20px;
+					line-height: 26px;
+				}
+				.section_404 .hgroup p{
+					font-size: 14px;
+					line-height: 22px;
+					margin: 0 0 7px;
+				}
+}
+
+@media screen and (max-width: 767px) { /* Smart Phones to Tablets 481 to 767 */
+	/**       2- Folio Zee Curve Shape                                     **/
+	/* .zee_d_curve_container double curves top and bottom starts */
+	.zee_curve_container{
+	}
+	.zee_d_curve_container{
+		min-height: 504px;
+	}
+		.zee_d_curve_container .container{
+			min-height: 504px;
+		}
+	.zee_d_curve{
+		min-height: 504px;
+	}
+	/* .zee_d_curve_container double curves top and bottom ends */
+	
+	/* Curve starts */
+	.zee_curve_container .zee_curve_left{
+		top: -94px;
+	}
+	.zee_curve_container .zee_curve_right{
+		bottom: -101px;
+	}
+	/* Curve Ends */
+	
+		/* .zee_curve_container blockquote starts */
+		blockquote.home_quote{
+			font-size: 18px;
+			line-height: 26px;
+		}
+		blockquote.home_quote p{
+			font-size: 18px;
+			line-height: 26px;
+		}
+		/* .zee_curve_container blockquote ends */
+		
+		/* .zee_curve_container .curve_heading starts */
+		.curve_heading h4{
+			font-size: 26px;
+			line-height: 40px;
+			margin-bottom: 47px;
+		}
+		/* .zee_curve_container .curve_heading ends */
+	
+	/**		2.1- Curve Video		**/
+	/* .video_holder starts */
+
+		/* .video_holder .play-button starts */
+		.video_holder .play-button{
+			height: 70px;
+			margin: 0 0 26px;
+			width: 70px;
+		}
+			.video_holder .play-button:before{
+				line-height: 70px;
+			}
+		/* .video_holder .play-button ends */
+		
+	/* .video_holder ends */
+	
+	/**		2.2- Curve Testimonial slider		**/
+	/* .testi_holder starts */
+	.zee_curve_container .testi_holder{
+		margin: 190px 0 170px;
+	}
+		.testi_holder .col-sm-10{
+			width: 630px;
+		}
+		/* .testi_holder .testi_single starts */
+		.testi_holder .testi_single .avatar{
+			display: inline-block;
+			float: none;
+			overflow: hidden;
+			vertical-align: top;
+			width: 136px;
+		}
+		.testi_holder .testi_single .testi_text{
+			display: inline-block;
+			text-align: left;
+			float: none;
+			width: 441px;
+			margin-left: 18px;
+			overflow: hidden;
+		}
+			.testi_holder .testi_single .testi_text h3{
+				font-size: 16px;
+				line-height: 22px;
+				margin: 15px 0 20px;
+			}
+			.testi_holder .testi_single .testi_text h5{
+				font-size: 15px;
+				line-height: 24px;
+			}
+		.testi_holder .owl-controls .owl-pagination{
+			margin-top: 24px;
+			width: 136px;
+		}
+		/* .testi_holder .testi_single ends */
+	
+	/**		2.3- Statistics		**/
+	/* .stats_single starts */
+	.zee_curve_container .folio_stats{
+		margin: 165px 0 150px;
+	}
+	/* .stats_single ends */
+		
+	/**       3- Navigation Primary (Sticky Navigation)                   **/
+	/* menu-bar starts */
+	.sticky-wrapper.is-sticky .menu-bar{
+		height:  auto;
+	}
+	.small_menu{
+		display: inline-block;
+		float: right;
+	}
+		.small_menu .menu_small_btn{
+			background: none;
+			border: 0;
+			color: #ffffff;
+			float: right;
+			margin: 2px 0;
+			position: relative;
+			text-align: center;
+			-webkit-transition: all 0.3s ease 0s;
+			-moz-transition: all 0.3s ease 0s;
+			-ms-transition: all 0.3s ease 0s;
+			-o-transition: all 0.3s ease 0s;
+			transition: all 0.3s ease 0s;
+			height: 24px;
+			width: 30px;
+		}
+			.small_menu .menu_small_btn:hover{
+				background: none;
+			}
+			.small_menu .menu_small_btn .open_menu, .small_menu .menu_small_btn .close_menu{
+				position: absolute;
+				top: 0;
+				left: 0;
+				cursor: pointer;
+				transition: all 0.2s ease 0s;
+					-webkit-transition: all 0.2s ease 0s;
+					-moz-transition: all 0.2s ease 0s;
+					-ms-transition: all 0.2s ease 0s;
+					-o-transition: all 0.2s ease 0s;
+			}
+			.small_menu .menu_small_btn .open_menu{
+				z-index: 10;
+				opacity: 1;
+			}
+			.small_menu .menu_small_btn .close_menu{
+				opacity: 0;
+				z-index: 9;
+			}
+			.small_menu .menu_small_btn i{
+				font-size: 38px;
+				line-height: 24px;
+			}
+	.menu-bar{
+		width: 100%;
+	}
+	.menu-bar .logo{
+		display: block;
+		float: none;
+		overflow: hidden;
+		margin: 10px 0;
+		text-align: center;
+	}
+	.menu-bar .logo img{
+		float: left;
+		margin-left: 10px;
+		margin-top: 5px;
+	}
+	.menu-bar .main-nav{
+		clear: both;
+		display: block;
+		float: none;
+	}
+	.menu-bar .main-nav ul{
+		float: none;
+		display: none;
+		margin: 0;
+		overflow: hidden;
+	}
+	.menu-bar .main-nav ul li{
+		clear: both;
+		display: block;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		float: none;
+		list-style: none;
+		text-align: left;
+		overflow: hidden;
+	}
+	.menu-bar .main-nav ul li a{
+		font-size: 12px;
+		position: relative;
+		line-height: 12px;
+		padding: 10px 0;
+		margin: 0;
+	}
+	.menu-bar .main-nav .back_top{
+		display: none;
+	}
+	 
+		/* menu-bar Dropdown Starts */
+		.menu-bar .main-nav  ul > li > ul {
+			border-top: none;
+			visibility: visible;
+			width: 100%;
+			position: relative;
+			text-align: left;
+				-webkit-transition: all 0.5s ease 0.1s;
+				-moz-transition: all 0.5s ease 0.1s;
+				-ms-transition: all 0.5s ease 0.1s;
+				-o-transition: all 0.5s ease 0.1s;
+				transition: all 0.5s ease 0.1s;
+				opacity: 1;
+			top: 0;
+			max-width: 100%;
+			min-width: 100%;
+		}
+		
+		.menu-bar .main-nav  ul > li > ul a,
+		.menu-bar .main-nav  ul > li > ul a:link {
+			font-size: 12px;
+			line-height: 12px;
+			margin: 0;
+			padding: 10px 0 10px 24px;
+			transition: all 0.3s ease 0s;
+				-webkit-transition: all 0.3s ease 0s;
+				-moz-transition: all 0.3s ease 0s;
+				-ms-transition: all 0.3s ease 0s;
+				-o-transition: all 0.3s ease 0s;
+			text-align: left;
+		}
+		
+		.menu-bar .main-nav  ul > li > ul a:hover {
+			background-color: rgba(41, 41, 41, 0.5);
+			color: #FFF;
+		}
+		/* menu-bar Dropdown Ends */
+	/* menu-bar ends */
+	/* .header-menu-1 .menu-bar */ 
+	.header-menu-1, .header-menu-2{
+		display: none;
+	}
+	
+	/**       5- Header                                                  **/
+	.static_banner {
+		height: 550px;
+		position: relative;
+		width: 100%;
+	}
+		.text_banner_holder{
+			margin: 100px 0 0 0;
+		}
+		.text_banner_holder .skew_shape{
+			height: 210px;
+		}
+		.text_banner_holder .heading_wrap h2{
+			font-size: 65px;
+			line-height: 68px;
+			margin: 0 0 12px 0;
+		}
+		.text_banner_holder .heading_wrap h3{
+			font-size: 22px;
+			line-height: 34px;
+			margin: 0 0 12px 0;
+		}
+		.text_banner_holder .next_section a{
+			font-size: 40px;
+			line-height: 20px;
+		}
+		/* .next_section a ends*/
+		/**	Header slim_text		**/
+		.text_banner_holder .slim_text.heading_wrap h2{
+			font-size: 45px;
+			line-height: 48px;
+		}
+		
+	/**       6- Homepage Sections							          	  **/
+	/* Section Homepage General CSS starts */
+		.section_container{
+			padding-top: 64px;
+		}
+		.section_container .hgroup{
+			margin-bottom: 32px;
+		}
+		.section_container .hgroup h2{
+			font-size: 22px;
+			line-height: 22px;
+			margin: 10px 0;
+		}
+		.section_container .hgroup h3{
+			font-size: 14px;
+			line-height: 18px;
+			margin: 6px 0;
+		}
+		.section_container .hgroup .skew_shape{
+			height: 73px;
+		}
+	/* Section Homepage General CSS ends */
+	
+	/**		7- About Section		**/
+	.about_image{
+		text-align: center;
+		margin-bottom: 32px;
+	}
+	.about_content_holder{
+		text-align: center;
+	}
+	.about_content_holder h3{
+		font-size: 22px;
+		line-height: 30px;
+		margin: 0 0 33px;
+	}
+	.about_single{
+		margin: 0 auto;
+		margin-bottom: 22px;
+		max-width: 440px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.about_single .icon_holder{
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.about_single .about_right{
+		width: 100%;
+	}
+	.about_single i{
+		font-size: 34px;
+		line-height: 34px;
+	}
+	.learn_more_about .folio-link-url{
+		margin: 0 auto;
+	}
+
+
+	/**		8- Feature Portfolio Section		**/
+	/* Project Starts */
+		.project .project_detail {
+			margin: 15px 0 0 0;
+		}
+			.project .featured_image img{
+				width: 100%;
+			}
+				.project .project_detail .project_text .hgroup h2{
+					font-size: 23px;
+					line-height: 33px;
+					padding-right: 0;
+				}
+				.project .project_detail .project_text .hgroup h3{
+					font-size: 16px;
+					line-height: 24px;
+					padding-right: 0;
+				}
+	/* Project Ends */
+	
+	/**		9- Services Section		**/
+	/* .service_single starts */
+	.service_single{
+		margin-bottom: 44px;
+		overflow: hidden;
+		text-align: center;
+	}
+		.service_single .icon_holder{
+			float: none;
+			margin: 0 auto 20px;
+			width: 122px;
+		}
+			.service_single .icon_holder .icon_shape{
+			}
+				.service_single .icon_holder .icon_shape i{
+					font-size: 40px;
+					line-height: 120px;
+				}
+		.service_single .service_right{
+			float: none;
+			margin: 0 auto;
+			/*width: 440px;*/
+		}
+	/* .service_single ends */
+	
+	/**		10- Simple text Section		**/
+	/* .simple_text starts */
+		.simple_text .text_holder{
+			margin-bottom: 18px;
+		}
+			.simple_text .text_holder h4{
+				font-size: 24px;
+				line-height: 32px;
+				padding: 0 5.5%;
+			}
+			.simple_text .text_holder p{
+				padding: 0 5.5%;
+			}
+	/* .simple_text ends */
+	
+	/**		11- Portfolio Section		**/
+	/* work_nav starts */
+		.work_nav ul{
+			margin: 25px 0 10px;
+		}
+		.work_nav ul li{
+			margin: 0 10px;
+		}
+		.work_nav ul li a{
+			font-size: 13px;
+			line-height: 22px;
+		}
+	/* work_nav ends */
+	/* work_listing starts */
+		.work_listing {
+			margin: 0 0 20px 0;
+		}	
+		.work_listing .work_item{
+			/*width: 240px;*/
+		}
+		.work_listing .work_item .single_work{
+			width: 390px;
+			margin: 0 auto;
+		}
+	/* work_listing ends */
+	
+	/**		12- Team Slider Section		**/
+	/* .team_carousel starts */
+		.member_basic{
+			padding: 10px 5px;
+			
+		}
+			.member_basic .member_name{
+				font-size: 14px;
+				line-height: 16px;
+			}
+			.member_basic .member_designation{
+				font-size: 12px;
+				line-height: 14px;
+			}
+	/* .team_carousel ends */
+
+	/* team_slider starts */
+	.team_slider{
+		margin: 0 0 16px 0;
+	}
+		.team_social{
+			margin-bottom: 14px;
+		}
+		/* team_description starts */
+		.team_description{
+			margin-left: 0;
+		}
+		.team_description h3{
+			font-size: 18px;
+			line-height: 26px;
+		}
+		/* team_description ends */
+	/* team_slider ends */
+	
+	/**		13- Client Section			**/
+	/* .clients_holder starts */
+	.clients_holder{
+		margin-bottom: 20px;
+	}
+	/* .clients_holder ends */
+	
+	/**		14- Home Blog Section		**/
+	/* .hm_blog_post starts */
+	.hm_blog_post .post{
+		margin-bottom: 20px;
+	}
+		.post .featured_image img{
+			width: 100%;
+		}
+				.post .post_content{
+					padding-left: 70px;
+					padding-top: 20px;
+				}
+				.post .post_content .date_holder .date{
+					height: 67px;
+					padding-top: 12px;
+					width: 50px;
+				}
+					.post .post_content .date_holder .date .date_day{
+						font-size: 24px;
+						line-height: 20px;
+					}
+					.post .post_content .date_holder .date .date_month{
+						font-size: 14px;
+						line-height: 18px;
+					}
+					.post .post_content .meta_holder .title_holder .post_title{
+						font-size: 20px;
+						line-height: 26px;
+						margin: 0 0 22px;
+					}
+
+				.post .post_content .meta_holder .post_meta{
+					font-size: 14px;
+				}
+	/* .hm_blog_post ends */
+	
+	/**		16- Footer Section (map included)		**/
+	/* Footer Starts*/
+	/* .google_map starts */
+	.google_map{
+		height: 454px;
+	}
+	.map_mask{
+		height: 170px;
+	}
+	/* .google_map ends */
+	
+	footer{
+		text-align: center;
+	}
+	/* sm_links starts */
+	ul.sm_links{
+		display: inline-block;
+		float: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		vertical-align: bottom;
+	}
+	/* sm_links ends */
+	/* Footer Ends*/
+	
+	/**      17- Content area inner Pages    							  **/
+	/* Content area is used in between blog top heading section */
+	/* content_bar Styling Starts*/ /* Content_bar styling includes for both blog and inner pages */
+		/* folio_headings starts */
+		.content_bar h2.folio_h2{
+			font-size: 32px;
+			font-weight: 300;
+			line-height: 42px;
+			padding: 0 0 0 33px;
+			margin: 0 0 30px;
+		}
+			.content_bar h2.folio_h2:before{
+				height: 42px;
+				position: absolute;
+				left: 14px;
+				width: 1px;
+			}
+		/* folio_headings ends */
+	
+	.content_bar h1, .content_bar .h1, .content_bar h1 a, .content_bar .h1 a,  
+	.content_bar h2, .content_bar .h2, .content_bar h2 a, .content_bar .h2 a,
+	.content_bar h3, .content_bar .h3, .content_bar h3 a, .content_bar .h3 a,
+	.content_bar h4, .content_bar .h4, .content_bar h4 a, .content_bar .h4 a, 
+	.content_bar h5, .content_bar .h5, .content_bar h5 a, .content_bar .h5 a,
+	.content_bar h6, .content_bar .h6, .content_bar h6 a, .content_bar .h6 a{
+		margin: 0 0 15px 0;
+	}
+		.content_bar h1{
+			font-size: 32px;
+			line-height: 38px;
+		}
+		.content_bar h2{
+			clear: both;
+			font-size: 26px;
+			line-height: 32px;
+		}
+		.content_bar h3{
+			font-size: 24px;
+			line-height: 30px;
+		}
+		.content_bar h4{
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.content_bar h5{
+			font-size: 17px;
+			line-height: 22px;
+		}
+		.content_bar h6{
+			font-size: 15px;
+			line-height: 20px;
+		}
+	.content_bar p{
+		font-size: 13px;
+		line-height: 19px;
+	}
+
+		.content_bar pre {
+			font-size: 13px;
+			line-height: 19px;
+		}	
+		.content_bar ul li {
+			font-size: 13px;
+			line-height: 19px;
+		}
+		.content_bar ol {
+			padding: 0;
+		}
+		.content_bar ol li {
+			font-size: 13px;
+			line-height: 19px;
+		}
+	/* content_bar Styling Ends*/
+	
+	/**		18- Internal Section (includes headings group on top)		**/
+	/* .internal_header Starts */
+		.internal_header{
+			/*margin: 50px 0;*/
+			padding: 60px 0 18px 0;
+		}
+		.internal_header .hgroup h2{
+			font-size: 60px;
+			line-height: 76px;
+		}
+		.internal_header .hgroup h3{
+			font-size: 24px;
+			line-height: 34px;
+		}
+		.internal_header .hgroup h4{
+			font-size: 16px;
+			line-height: 22px;
+		}
+	/* .internal_header Ends */
+
+	/**		19- Inner Blog		**/
+	/* .blog_post Starts */
+		.blog_listing .post{
+			margin: 0 0 56px 0;
+		}
+		.blog_listing.blog_single .post{
+			margin: 0;
+		}
+		.blog_listing .post .post_content .meta_holder{
+			display: block;
+			margin: 0 0 16px;
+			overflow: hidden;
+		}
+			.blog_listing .post .post_content .meta_holder .title_holder{
+				float: left;
+				width: 100%;
+				padding-right: 110px;
+			}
+			.blog_listing .post .post_content .meta_holder  .meta_list{
+				float: left;
+				width: 100%;
+				margin: 0;
+			}
+				.blog_listing .meta_holder .comments{
+					position: absolute;
+					right: 0;
+					top: 12px;
+				}
+				.blog_listing .meta_holder .comments a{
+					font-size: 12px;
+					line-height: 24px;
+				}
+				.blog_listing .meta_holder .comments i{
+					font-size: 16px;
+				}
+				.blog_listing .meta_holder .comments span{
+					font-size: 14px;
+					margin: 0 4px 0 6px;
+				}
+	/* .blog_post Ends */
+	/* social_media starts */
+		.social_media > ul > li{
+			font-size: 20px;
+			line-height: 33px;
+		}
+	/* social_media starts */
+	
+	/* pagination start */ 
+		 /*.wp-pagenavi & wp_corenavi starts*/
+		  .folio_navigation{
+			  margin: 0 0 20px 70px;
+		  }
+		/*.wp-pagenavi  & wp_corenavi starts*/
+		
+	/* pagination end */
+	/* .navigation Starts (Single post) */
+		.page_nav {
+			margin: 0 0 20px 70px;
+		}
+	/* .navigation Ends (Single post) */
+	
+	/**		20- Sidebar and Widgets		**/
+	/* side_bar Starts*/
+	.side_bar{
+		padding-left: 15px;
+	}
+		/* widget_search, widget_kraft_search Starts*/
+		.widget_kraft_search label, .widget_search label{
+			margin: 0;
+		}
+		#s {
+			width: 80%;
+		}
+		#searchsubmit{
+			width: 20%;
+		}
+		/* widget_search, widget_kraft_search Ends*/
+	/* sidebar Ends*/
+	
+	/**      21- Blog Comments Section                  					  **/
+	/* comments_section Starts */
+	#comments_section {
+		font-size: 13px;
+		margin: 0 0 0 70px;
+		padding: 13px 0 20px 0;
+	}
+	#comments_section h3 {
+		color: #000000;
+		font-size: 28px;
+		line-height: 50px;
+		margin: 0 0 20px;
+	}
+	 
+	 #comments_section h3 i{
+		font-size: 18px;
+	 }
+	
+	#comments .commentlist .comment .clearing-container img {
+		width: 80px;
+		height: 80px;
+	}
+		#comments .commentlist .children {
+			margin: 0 0 0 50px;
+		}
+		#comments .commentlist li { 
+			margin: 0 0 15px; 
+		}
+		#comments .commentlist li cite.fn, #comments .commentlist a.comment-reply-link{
+			margin-right: 10px;
+		}
+		#comments .clearing-container .comment_block{
+			margin: -14px 0 0 100px;
+			padding: 0 0 20px; 
+		}
+	/* comments_section Ends */
+	
+	/**		22- Shortcodes and Styling		**/
+	/**      20.1- Column Styles			                 				  **/
+	/*-----------------------------------------------------------------------------------*/
+	/*	Column Styles
+	/*-----------------------------------------------------------------------------------*/
+		.folio-one-half,
+		.folio-one-third,
+		.folio-two-third,
+		.folio-three-fourth,
+		.folio-one-fourth,
+		.folio-one-fifth,
+		.folio-two-fifth,
+		.folio-three-fifth,
+		.folio-four-fifth,
+		.folio-one-sixth,
+		.folio-five-sixth {
+			display: block;
+			margin-right: 0;
+			float: none;
+			width: 100%;
+		}
+	/**      22.3- Tabs Styles			                 				  **/	
+	/*-----------------------------------------------------------------------------------*/
+	/* Tab Styles
+	/*-----------------------------------------------------------------------------------*/
+	.folio-tabs .folio-nav li a {
+		padding: 0 30px;
+	}
+	.folio-tabs .folio-tab {
+		padding: 22px 28px;
+	}
+	
+	/**      22.5- Pricing Tables Styles			                 				  **/
+	/*-----------------------------------------------------------------------------------*/
+	/* Folio Pricing Table Styles		
+	/*-----------------------------------------------------------------------------------*/
+	.folio_pricing_single .price_title{
+		padding: 10px 15px;
+	}
+		.folio_pricing_single .price_title h2{
+			font-size: 20px;
+			line-height: 25px;	
+		}
+	.folio_pricing_single .price_cost{
+		padding: 32px 15px;
+	}
+		.folio_pricing_single .price_cost .price{
+			font-size: 46px;
+			line-height: 46px;
+		}
+	.folio_pricing_single .pricing_details{
+		padding: 22px 0 35px;
+	}
+	.folio_pricing_single .pricing_details ul{
+		margin: 0 0 15px 0;
+	}
+		.folio_pricing_single .pricing_details ul li{
+			font-size: 13px;
+			line-height: 22px;
+			padding: 0 0 20px 0;
+		}
+
+	/**      22.6- Quotes Styles			                 				  **/
+	/*-----------------------------------------------------------------------------------*/
+	/*	Quotes Styles
+	/*-----------------------------------------------------------------------------------*/
+		/* quote_styling Starts */
+		
+		/* blockqoute */ 
+		.content_bar .quote_1, .content_bar .quote_2, .content_bar .quote_3, .content_bar .quote_4, .content_bar .quote_5{
+			margin: 30px 0 10px 0;
+			padding: 0 10px 0 45px;
+		}
+		.content_bar .quote_4, .content_bar .quote_5{
+			padding: 23px 36px 23px 36px;
+		}
+		/* blockqoute p */
+		.content_bar .quote_1 p, .content_bar .quote_4 p , .content_bar .quote_5 p{
+			font-size: 15px;
+			line-height: 26px;
+		}
+		.content_bar .quote_2 p, .content_bar .quote_3 p {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.content_bar .quote_4 p , .content_bar .quote_5 p{
+			font-size: 20px;
+			line-height: 26px;
+		}
+		/* quote_styling Ends */
+
+	/**		23- 404 section		**/
+	.section_404{
+		padding-top: 122px;
+	}
+				.section_404 .hgroup .heading_left h1 {
+					font-size: 80px;
+					line-height: 88px;
+				}
+				.section_404 .hgroup .heading_left h1:after{
+					bottom: -5px;
+					width: 34px;
+					height: 6px;
+					margin-left: -17px;
+				}
+				.section_404 .hgroup .skew_shape{
+					height: 110px;
+				}
+			.section_404 .hgroup .heading_right{
+				padding: 5px 0 0 10px;
+			}
+				.section_404 .hgroup h2{
+					font-size: 32px;
+					line-height: 32px;
+					margin: 0 0 7px;
+				}
+				.section_404 .hgroup h3{
+					font-size: 18px;
+					line-height: 24px;
+				}
+				.section_404 .hgroup p{
+					font-size: 13px;
+					line-height: 19px;
+				}
+}
+
+/* query embeded spcially for testimonial slider */
+@media screen and (max-width: 630px){
+	/**		2.2- Curve Testimonial slider		**/
+	/* .testi_holder starts */
+		.testi_holder .col-sm-10{
+			width: auto;
+		}
+		/* .testi_holder .testi_single starts */
+		.testi_holder .testi_single .avatar{
+			width: 136px;
+		}
+		.testi_holder .testi_single .testi_text{
+			text-align: center;
+			float: left;
+			width: auto;
+			margin-left: 18px;
+			
+		}
+			.testi_holder .testi_single .testi_text h3{
+				font-size: 16px;
+				line-height: 22px;
+				margin: 15px 0 20px;
+			}
+			.testi_holder .testi_single .testi_text h5{
+				font-size: 15px;
+				line-height: 24px;
+			}
+		.testi_holder .owl-controls .owl-pagination{
+			display: inline-block;
+			float: none;
+			margin: 0 auto;
+			width: 136px;
+			overflow: hidden;
+		}
+		/* .testi_holder .testi_single ends */
+}
+@media screen and  (max-width: 480px) { /* Smartphones 480 and Below */
+	/* .toggle_section_button */
+	.circle_button{
+		font-size: 12px;
+		height: 100px;
+		margin-left: -50px;
+		padding: 35px 0 0 0;
+		width: 100px;
+	}
+	.circle_button_bottom{
+		bottom: -50px;
+	}
+	.circle_button_top{
+		top: -50px;
+	}
+	.circle_button i{
+		color: rgba(153, 153, 153, 0.5);
+		display: block;
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	/* .toggle_section_button */
+
+	/**       2- Folio Zee Curve Shape                                     **/
+	/* Curve starts */
+	.zee_curve_container{
+		overflow: visible;
+	}
+	/* .zee_d_curve_container double curves top and bottom starts */
+	.zee_d_curve_container{
+		min-height: 320px;
+	}
+		.zee_d_curve_container .container{
+			min-height: 320px;
+			/*padding-top: 214px;*/
+		}
+		.zee_d_curve_container:before{
+			display: none;
+		}
+		.zee_d_curve_container:after{
+			display: none;
+		}
+	
+	.zee_d_curve{
+		min-height: 320px;
+	}
+	
+	.zee_curve_container .container{
+		position: relative;
+		height: 100%;
+	}
+	.zee_curve_container .zee_curve_left, .zee_curve_container .zee_curve_right{
+		display: none;
+	}
+	.curve_content{
+		padding: 50px 0 ;
+		height: 100%;
+	}
+	
+	/* .zee_t_curve_container double curves top and bottom starts */	
+	.zee_b_curve_container .section_container{
+		padding-bottom: 50px;
+	}
+		.zee_t_curve_container:before{
+			display: none;
+		}
+		.zee_b_curve_container:after{
+			display: none;
+		}
+	.curve_content{
+		padding: 50px 0 ;
+		height: 100%;
+	}
+	
+		/* For Grey Color top and buttom curves, one at a time */	
+			.zee_t_curve_container.top_grey .zee_curve_left:before{
+				border-left: 610px solid #F2F2F2;
+			}
+	
+			.zee_b_curve_container.bottom_grey .zee_curve_right:before{
+				border-right: 610px solid #F2F2F2;
+			}
+			
+	
+	/* Curve ends */
+
+	/* .zee_curve_container blockquote starts */
+	blockquote.home_quote{
+		border: none;
+		font-size: 20px;
+		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+	}
+	blockquote.home_quote p{
+		color: #FFFFFF;
+		display: inline;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	blockquote.home_quote strong{
+		color: #FF3131;
+		font-weight: 400;
+	}
+	/* .zee_curve_container blockquote ends */
+	
+	/* .zee_curve_container .curve_heading starts */
+	.curve_heading{
+		text-align: center;
+	}
+	.curve_heading h4{
+		font-size: 26px;
+		font-weight: 400;
+		margin-bottom: 37px;
+	}
+	/* .zee_curve_container .curve_heading ends */
+	
+	/**		2.1- Curve Video		**/
+	/* .video_holder starts */
+	.zee_curve_container .video_holder{
+		margin: 82px 0;
+	}
+	/* .video_holder ends */
+	
+	/**		2.2- Curve Testimonial slider		**/
+	/* .testi_holder starts */
+	.zee_curve_container .testi_holder{
+		margin: 82px 0;
+	}
+	/**		2.3- Statistics		**/
+	/* .stats_single starts */
+	.zee_curve_container .folio_stats{
+		margin: 82px 0;
+	}
+	/* .stats_single ends */
+	
+	/**		5- Header                                                  **/
+	.static_banner {
+		height: 340px;
+		position: relative;
+		width: 100%;
+	}
+		.text_banner_holder{
+			margin: 50px 0 0 0;
+		}
+		.text_banner_holder .skew_shape{
+			height: 100px;
+		}
+		.text_banner_holder .heading_wrap h2{
+			font-size: 40px;
+			line-height: 43px;
+		}
+		.text_banner_holder .heading_wrap h3{
+			font-size: 16px;
+			line-height: 24px;
+			margin: 0 0 12px 0;
+		}
+		.text_banner_holder .next_section a{
+			font-size: 40px;
+			line-height: 20px;
+		}
+		/* .next_section a ends*/
+		.text_banner_holder .slim_text.heading_wrap h2{
+			font-size: 30px;
+			line-height: 33px;
+		}
+		
+	/**       6- Homepage Sections							          	  **/
+	/* Section Homepage General CSS starts */
+	.section_container{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+		.section_container .hgroup .heading_cover{
+			text-align: center;
+			width: 100%;
+		}
+		.section_container .hgroup .skew_holder{
+			display: none;
+		}
+		.section_container .hgroup h2{
+			border-bottom: 2px solid #999999;
+			display: inline-block;
+			font-size: 22px;
+			padding-bottom: 10px;
+			line-height: 22px;
+			overflow: hidden;
+		}
+		.section_container .hgroup h3{
+			font-size: 13px;
+			line-height: 18px;
+		}
+		
+	/* Section Homepage General CSS ends */
+
+	/**		11- Portfolio Section		**/
+	/* work_nav starts */
+		.work_nav ul{
+			text-align: center;
+		}
+		.work_nav ul li{
+			display: inline-block;
+			float: none;
+			overflow: hidden;
+		}
+	/* work_nav ends */
+
+	/* work_listing starts */
+		.work_listing .work_item .single_work{
+			width: auto;
+			max-width: 390px;
+		}
+		.view .links{
+			margin: 0 0 41px 0;
+			padding: 20px 20px 0 0;
+		}
+		.view .work_detail h3{
+			font-size: 22px;
+			line-height: 28px;
+		}
+	/* work_listing ends */
+
+	/**		12- Team Slider Section		**/
+	/* .team_carousel starts */
+		.member_basic{
+			padding: 10px 5px;
+		}
+			.member_basic .member_name{
+				font-size: 13px;
+				line-height: 15px;
+			}
+			.member_basic .member_designation{
+				display: none;
+			}
+	/* .team_carousel ends */
+
+	/**		14- Home Blog Section		**/
+			.post .featured_image.video_post .play-button{
+				bottom: 24px;
+				height: 42px;
+				right: 24px;
+				width: 42px;
+			}
+				.post .featured_image.video_post .play-button:before{
+					font-size: 14px;
+					line-height: 38px;
+				}
+	/* .hm_blog_post ends */
+
+	/**		15- Contact Section		**/
+		.contact_info .fa{
+			font-size: 82px;
+			line-height: 82px;
+			margin-bottom: 15px;
+		}
+	
+	/**		16- Footer Section (map included)		**/
+	/* Footer Starts*/
+	/* .google_map starts */
+	.google_map{
+		height: 354px;
+	}
+	.map_mask{
+		height: 60px;
+	}
+	/* .google_map ends */
+	
+	footer{
+		text-align: center;
+	}
+	/* sm_links starts */
+	ul.sm_links{
+		display: inline-block;
+		float: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		vertical-align: bottom;
+	}
+	/* sm_links ends */
+	/* Footer Ends*/
+	
+	.page_nav{
+		margin-left: 0;
+	}
+	
+	/**		19- Inner Blog		**/
+	/* .blog_post Starts */
+		.blog_listing .post .vjs-poster{
+			height: 100%;
+		}
+		
+		/* video js starts */
+		.blog_listing .post .featured_image .vjs-default-skin .vjs-big-play-button{
+			bottom: 24px;
+			height: 42px;
+			right: 24px;
+			width: 42px;
+		}
+		.blog_listing .post .featured_image .vjs-default-skin div.vjs-big-play-button span:before{
+			font-size: 14px;
+			line-height: 38px;
+		}
+		/* video js ends */
+		
+	/**      21- Blog Comments Section                  					  **/
+	#comments_section{
+		margin-left: 0;
+	}
+	/* comments_section Starts */
+	#comments .commentlist .comment .clearing-container img {
+		width: 60px;
+		height: 60px;
+	}
+		#comments .commentlist .children {
+			margin: 0 0 0 40px;
+		}
+		#comments .clearing-container .comment_block{
+			margin: -14px 0 0 80px;
+		}
+	/* comments_section Ends */
+	
+	/**		23- 404 section		**/
+	.section_404{
+		padding-top: 82px;
+	}
+				.section_404 .hgroup .heading_left{
+					width: 100%;
+				}
+				.section_404 .hgroup .heading_left h1{
+					display: inline-block;
+					border-bottom: 2px solid #999999;
+					padding: 0 0 20px;
+					margin: 0 0 12px;
+				}
+				.section_404 .hgroup .heading_left h1:after{
+					bottom: 18px;
+					width: 34px;
+					height: 6px;
+					margin-left: -17px;
+				}
+				.section_404 .hgroup .skew_shape{
+					display: none;
+				}
+			.section_404 .hgroup .heading_right{
+				padding: 5px 0 0 10px;
+				width: 100%;
+				text-align: center;
+			}
+				.section_404 .hgroup h2{
+					font-size: 32px;
+					line-height: 32px;
+					margin: 0 0 7px;
+				}
+				.section_404 .hgroup h3{
+					font-size: 18px;
+					line-height: 24px;
+				}
+				.section_404 .hgroup p{
+					font-size: 13px;
+					line-height: 19px;
+				}
+}

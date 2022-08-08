@@ -1,0 +1,30 @@
+table.table-items{
+	input{
+		width: 90%;
+		padding: 1px 5px;
+		height: 40px;
+		font-size: 12px;
+		margin: 0;
+		border: 0;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+		&[type="checkbox"]{
+			float: none;
+			width: inherit;
+		}
+	}
+	thead th, tr td {
+		text-align: center;
+	}
+	tbody > tr > td{
+		vertical-align: middle;
+	}
+	th.label-total{
+		text-align: right;
+	}
+	th.price-total{
+		font-size: 24px;
+		font-weight: bold;
+		text-align: center;
+	}
+}

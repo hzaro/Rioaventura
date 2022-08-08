@@ -1,0 +1,19 @@
+/* CSS Document for IE */
+@media screen and (min-width: 1200px) { /* Large Display 1200px and above */
+	/* Search bar in blog sidebar */
+	#s{
+		width: 300px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	/* Search bar in blog sidebar */
+	#s{
+		width: 223px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	/* Search bar in blog sidebar */
+	#s{
+		width: 150px;
+	}
+}

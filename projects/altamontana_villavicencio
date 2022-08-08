@@ -1,0 +1,47 @@
+ <section class="content_area">
+        <div class="container">
+            <div class="row">
+            	<!-- project_ajax_content starts -->
+                    <div id="project_ajax_content">
+                        <div class="content_bar project">
+                            <div class="col-sm-7 featured_image">
+                                <img src="images/portfolio/alta_montana/villavicencio-1.jpg" alt="slider">
+                            </div>
+                            <div class="col-sm-5">
+                            	<div class="project_detail">
+                                	<div class="project_text">
+                                    	<div class="hgroup">
+                                            <h2>Alta montaña por villavicencio</h2>
+                                           
+                                        </div>
+                                        <p>Partiremos de la Ciudad de Mendoza en rumbo Norte a través de la ruta 52 por la cual llegaremos al Valle de Villavicencio, este maravilloso lugar en plena pre cordillera, convertido ahora en reserva natural, es famoso por sus aguas minerales y su belleza natural bien conservada.<br>
+                                        En Ruta camino al Famoso hotel, tras haber cruzado el verdadero desierto Mendocino nos encontraremos con las 360 curvas ascendentes del denominado “Ruta  del año”, alcanzando asi el punto mas alto que es La Cruz de Paramillos la cual se encuentra a 3200 msnm, donde ya podremos apreciar el majestuoso Valle de Villavicencio.<br>
+                                        Comenzaremos ahora el descenso pasando por la llamada “Ciudad Fantasma” donde antiguamente habitaban los “Huarpes” (habitantes originarios de la región), para arribar al Valle de Uspallata donde apreciaremos las antiguas bóvedas y los hornos de fundición de minerales <br>
+                                        Luego continuaremos recorriendo puntos destacados de la Cordillera en un maravilloso recorrido por los paisajes mas importantes y característicos de Mendoza entre ellos Potrerillos y su dique, El histórico Valle de Uspallata enclavado en la Cordillera de los Andes, El Centro de Ski de Penitentes, comienzo de la cordillera frontal. El Imponente Puente de Inca, su historia asociada al ferrocarril trasandino y sus aguas termales. 
+
+
+
+</p>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            
+                                              
+                            
+                        </div>
+                    </div>
+                <!-- project_ajax_content ends -->
+                
+                <!-- page_nav starts -->
+                <div class="col-sm-12">
+                    <div class="page_nav project_page_nav span_center">
+                        <a class="next-post" href="project2.html"><i class="fa fa-angle-right"></i></a>
+                        <a class="previous-post" href="javascript:void(0);"><i class="fa fa-angle-left"></i></a>
+                    </div>
+                </div>
+                <!-- page_nav ends -->
+            </div>
+        </div>
+    </section>
